@@ -1,1 +1,3 @@
-print "Hello, World! - Perl\n";
+:- initialization(main).
+
+main :- write('Hello, World!'), nl.
